@@ -36,7 +36,7 @@ def lambda_handler(event, context):
                 
                     doc.stag('br')
                     doc.stag('br')
-                    text("Your answers were submitted! Thank you!")
+                    text("Gracias por tu participación! Nos pondremos en contacto contigo a la brevedad!")
 
     htmlResult = doc.getvalue()
 
